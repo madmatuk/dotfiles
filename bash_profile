@@ -4,6 +4,9 @@ PATH=$HOME/bin:$PATH
 PATH=/Applications/MAMP/bin/php/php5.5.3/bin:$PATH
 export PATH
 
+# Add Command to allow sublime text to open file from cmd line.
+export EDITOR='subl -w'
+
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
